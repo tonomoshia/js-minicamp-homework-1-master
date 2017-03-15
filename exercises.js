@@ -86,16 +86,22 @@ function isOdd(num) {
 }
 
 function square(num) {
+  var square = num * num;
+  return square;
   //square num and return the new value
   //code here
 }
 
 function cube(num) {
+  var cube = Math.pow(num, 3);
+  return cube;
   //cube num and return the new value
   //code here
 }
 
 function raiseToPower(num, exponent) {
+  var raiseToPower = Math.pow (num, exponent);
+  return raiseToPower;
   //raise num to whatever power is passed in as exponent
   //code here
 }
