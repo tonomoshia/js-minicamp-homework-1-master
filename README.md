@@ -17,7 +17,7 @@
 3. Install SublimeText3.  If you have another editor that you prefer then you can use that. https://www.sublimetext.com/3
 
 
-4. Download this project folder from GitHub.
+4. Download this project folder from GitHub. https://github.com/SunJieMing/js-minicamp-homework-1
 
 
 5. Navigate into the downloaded folder using Terminal(Mac) or Command Prompt(Windows).  `ls`(Mac), `pwd`(Windows) and `cd <directory_name>` are the commands you need to navigate around.
