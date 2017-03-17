@@ -107,9 +107,12 @@ function raiseToPower(num, exponent) {
 }
 
 function roundNumber(num) {
+  var rounded = Math.round(num);
+  return rounded;
   //round num and return it
   //code here
 }
+
 
 function roundUp(num) {
   //round num up and return it
