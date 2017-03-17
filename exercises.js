@@ -115,6 +115,8 @@ function roundNumber(num) {
 
 
 function roundUp(num) {
+  var roundedup = Math.ceil(num);
+  return roundedup;
   //round num up and return it
   //code here
 }
