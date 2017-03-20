@@ -129,9 +129,6 @@ function addExclamationPoint(str) {
 }
 
 function combineNames(firstName, lastName)
-  firstName = 'Lambda';
-  lastName = 'School';
-  return firstName + lastName;
   //return firstName and lastName combined as one string and separated by a space.
   //'Lambda', 'School' -> 'Lambda School'
   //code here
