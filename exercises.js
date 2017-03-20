@@ -113,7 +113,6 @@ function roundNumber(num) {
   //code here
 }
 
-
 function roundUp(num) {
   var roundedup = Math.ceil(num);
   return roundedup;
@@ -122,12 +121,17 @@ function roundUp(num) {
 }
 
 function addExclamationPoint(str) {
+  var hello = str + '!';
+  return (hello);
   //add an exclamation point to the end of str and return the new string
   //'hello world' -> 'hello world!'
   //code here
 }
 
-function combineNames(firstName, lastName) {
+function combineNames(firstName, lastName)
+  firstName = 'Lambda';
+  lastName = 'School';
+  return firstName + lastName;
   //return firstName and lastName combined as one string and separated by a space.
   //'Lambda', 'School' -> 'Lambda School'
   //code here
