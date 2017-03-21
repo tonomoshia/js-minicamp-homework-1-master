@@ -128,13 +128,15 @@ function addExclamationPoint(str) {
   //code here
 }
 
-function combineNames(firstName, lastName)
+function combineNames(firstName, lastName) {
   //return firstName and lastName combined as one string and separated by a space.
   //'Lambda', 'School' -> 'Lambda School'
   //code here
 }
 
 function getGreeting(name) {
+  var greeting = 'Hello ' + name + '!';
+  return greeting;
   //Take the name string and concatenate other strings onto it so it takes the following form:
   //'Sam' -> 'Hello Sam!'
   //code here
