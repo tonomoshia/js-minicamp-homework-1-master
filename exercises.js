@@ -32,7 +32,7 @@ function lessThanNinety(num) {
   //code here
 }
 
-function greaterThanFifty(num) {
+function greaterThanFifty(num){
   //return true if num is greater than fifty
   //otherwise return false
   //code here
@@ -74,10 +74,14 @@ function getRemainder(x, y) {
 }
 
 function isEven(num) {
-  //return true if num is even
+  if (num%2===0) {
+    return true;
+  }else if (isNaN) {
+    return false;
+  }
+}  //return true if num is even
   //otherwise return false
   //code here
-}
 
 function isOdd(num) {
   //return true if num is false
