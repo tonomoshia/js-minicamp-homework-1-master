@@ -89,7 +89,6 @@ function isOdd(num) {
   }else if (num%2===0) {
     return false;
   }
-
   //return true if num is false
   //otherwise return false
   //code here
@@ -155,11 +154,15 @@ function getGreeting(name) {
 //If you can't remember these area formulas then head over to Google or look at the test code.
 
 function getRectangleArea(length, width) {
+  var rectangleArea=length * width;
+  return rectangleArea;
   //return the area of the rectangle by using length and width
   //code here
 }
 
-function getTriangleArea(base, height) {
+function getTriangleArea(base, height)
+  var triangleArea= 0.5* base * height;
+  return triangleArea;
   //return the area of the triangle by using base and height
   //code here
 }
