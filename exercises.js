@@ -84,6 +84,12 @@ function isEven(num) {
   //code here
 
 function isOdd(num) {
+  if (num%2!=0) {
+    return true;
+  }else if (num%2===0) {
+    return false;
+  }
+
   //return true if num is false
   //otherwise return false
   //code here
