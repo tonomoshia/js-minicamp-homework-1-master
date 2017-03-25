@@ -138,6 +138,8 @@ function addExclamationPoint(str) {
 }
 
 function combineNames(firstName, lastName) {
+  var fullName = firstName + ' ' + lastName;
+  return fullName;
   //return firstName and lastName combined as one string and separated by a space.
   //'Lambda', 'School' -> 'Lambda School'
   //code here
@@ -160,11 +162,10 @@ function getRectangleArea(length, width) {
   //code here
 }
 
-function getTriangleArea(base, height)
-  var triangleArea= 0.5* base * height;
+function getTriangleArea(base, height) {
+  var triangleArea = base*height/2;
   return triangleArea;
   //return the area of the triangle by using base and height
-  //code here
 }
 
 function getCircleArea(radius) {
